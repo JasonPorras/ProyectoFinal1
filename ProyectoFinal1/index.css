@@ -1,0 +1,298 @@
+/*index-pagina principal*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.container {
+  max-width: 71.25rem;
+  margin: auto;
+}
+
+/*menu diseño*/
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.back-color img {
+  width: 15%;
+  height: auto;
+  border-radius: 4.375rem;
+  margin-left: 5rem;
+  margin-bottom: 1.5625rem;
+  margin-top: .625rem;
+}
+
+.back-color {
+  background-color: rgba(26, 165, 158, 0.877);
+}
+
+.menu li {
+  display: inline-flex;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.menu a {
+  color: white;
+}
+
+/*quien soy*/
+
+.art-soy {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 3.125rem;
+}
+
+.art-soy h1 {
+  font-size: 3.125rem;
+}
+
+.art-soy img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: .3125rem;
+  border-color: rgba(0, 0, 0, 0.877);
+  border-style: solid;
+}
+
+.flex-1 {
+  flex-basis: 60%;
+  margin-left: 3.125rem;
+}
+
+.flex-2 {
+  flex-basis: auto;
+}
+
+.art-soy p {
+  font-size: 1.25rem;
+}
+
+/*curriculum*/
+
+.arre-currí {
+  text-align: center;
+  background-color: rgba(26, 165, 158, 0.877);
+  font-size: 3.125rem;
+}
+
+.arre-currí a {
+  color: white;
+}
+
+.arre-currí a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.flex-curri {
+  display: flex;
+  margin-bottom: 3.125rem;
+  justify-content: space-between;
+}
+
+.border-curri {
+  border: .4375rem;
+  border-radius: .625rem;
+  border-style: solid;
+  border-color: rgba(26, 165, 158, 0.877);
+  padding: .5rem .625rem;
+}
+
+.centro {
+  text-align: center;
+}
+
+.border-curri h3 {
+  font-size: 3.125rem
+}
+
+.border-curri li {
+  list-style-type: square;
+  font-size: 1.25rem;
+}
+
+/*Portafolio*/
+
+.border-porta {
+  border: .4375rem;
+  border-radius: .625rem;
+  background-color: rgba(26, 165, 158, 0.877);
+  padding: .8125rem .9375rem;
+  margin-bottom: 3.125rem;
+}
+
+.border-porta h3 {
+  font-size: 1.375rem;
+  color: white;
+}
+
+.border-porta img {
+  border-radius: .625rem;
+}
+
+/*footer*/
+
+.inline-menu li {
+  display: inline-flex;
+  margin-top: 1.5625rem;
+  margin-left: 5.3125rem;
+  margin-right: 4.6875rem;
+}
+
+.inline-menu a {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.inline-menu a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.espacio-datos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.espacio-datos h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5625rem;
+  font-weight: bold;
+}
+
+.espacio-datos p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/*hoja de portafolio*/
+
+.flex-lista {
+  display: flex;
+}
+
+.flex-lista li {
+  margin-right: 2.5rem
+}
+
+.titulo {
+  text-align: center;
+  background-color: rgba(26, 165, 158, 0.877);
+  border-radius: .625rem;
+  color: white;
+}
+
+.flex-lista p {
+  font-size: 1.25rem;
+  background-color: rgba(26, 165, 158, 0.877);
+  padding: .625rem;
+  border-radius: .625rem;
+  color: white;
+}
+
+/*hoja de curriculum*/
+
+.letra {
+  font-size: 2.5rem;
+}
+
+.espacio-curri {
+  margin-right: 1.25rem;
+}
+
+/*hoja de contacto*/
+
+.flex-contacto {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.form {
+  text-align: center;
+}
+
+.form p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: .3125rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+  padding: .625rem .9375rem;
+  background-color: rgba(26, 165, 158, 0.877);
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.form .caja {
+  border: .3125rem;
+  border-style: solid;
+  border-radius: .3125rem;
+  border-color: black;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+  padding: .625rem .9375rem;
+  background-color: rgba(26, 165, 158, 0.877);
+}
+
+.select .caja {
+  border: .3125rem;
+  border-style: solid;
+  border-radius: .3125rem;
+  border-color: rgba(26, 165, 158, 0.877);
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+  padding: .625rem .9375rem;
+}
+
+.form p:hover {
+  text-decoration: underline;
+}
